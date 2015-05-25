@@ -6,7 +6,7 @@ FSTAR = $(FSTAR_HOME)/bin/fstar.exe
 LIB_FILES = string.fst io.fst bytes.fst tcp.fst list.fst option.fst 
 STDLIB = $(addprefix $(FSTAR_HOME)/lib/, $(LIB_FILES))
 
-VERFILES=hello.fst
+VERFILES=stack.fst
 
 FSTARFLAGS = --codegen OCaml
 
