@@ -1,0 +1,7 @@
+*.swp
+*.cmx
+*.cmi
+*.o
+*.ml
+.*.*
+program
